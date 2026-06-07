@@ -2,7 +2,9 @@
 
 ### Global Solution 2026.1 — Cross-Platform Application Development | FIAP
 
-![Banner do projeto](./assets/screenshots/banner.png)
+<p align="center">
+    <img src="./assets/screenshots/banner.svg" alt="Aurora MCC" width="180" />
+</p>
 
 ---
 
