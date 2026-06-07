@@ -16,8 +16,8 @@ O **Aurora MCC** é uma plataforma mobile de análise preditiva para monitoramen
 
 | Nome | RM |
 |------|----|
-| [Luiz Claro Lima] | RM563014 |
-| [Gabriel Nacarelli Pinheiro] | RM565298 |
+| Luiz Claro Lima | RM563014 |
+| Gabriel Nacarelli Pinheiro | RM565298 |
 
 ---
 
@@ -95,7 +95,7 @@ Formulário de configuração dos limiares de alerta, com inputs controlados, va
 git clone https://github.com/LuizC777/GLOBAL-SOLUTIONS1-APPDEV.git
 
 # Acesse a pasta do projeto
-cd [seu-repo]
+cd GLOBAL-SOLUTIONS1-APPDEV
 
 # Instale as dependências
 npm install
