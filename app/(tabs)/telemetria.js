@@ -21,6 +21,7 @@ export default function Telemetria() {
           valor={Math.round(dados.temperatura)}
           unidade="°C"
           emAlerta={ehAlerta(["temp_alta", "temp_baixa"])}
+          indice={0}
         />
         <CardIndicador
           icone="speedometer"
@@ -28,6 +29,7 @@ export default function Telemetria() {
           valor={dados.pressao.toFixed(1)}
           unidade="kPa"
           emAlerta={false}
+          indice={1}
         />
         <CardIndicador
           icone="nuclear"
@@ -35,6 +37,7 @@ export default function Telemetria() {
           valor={Math.round(dados.radiacao)}
           unidade=""
           emAlerta={ehAlerta(["radiacao_alta"])}
+          indice={2}
         />
       </View>
       <GraficoLinha

@@ -21,6 +21,7 @@ export default function Energia() {
           valor={Math.round(dados.bateria)}
           unidade="%"
           emAlerta={ehAlerta(["bateria_baixa"])}
+          indice={0}
         />
         <CardIndicador
           icone="sunny"
@@ -28,6 +29,7 @@ export default function Energia() {
           valor={Math.round(dados.geracaoSolar)}
           unidade="%"
           emAlerta={false}
+          indice={1}
         />
         <CardIndicador
           icone="flash"
@@ -35,6 +37,7 @@ export default function Energia() {
           valor={Math.round(dados.consumo)}
           unidade="%"
           emAlerta={false}
+          indice={2}
         />
       </View>
       <GraficoLinha

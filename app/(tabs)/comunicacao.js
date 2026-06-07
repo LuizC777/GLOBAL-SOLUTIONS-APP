@@ -21,6 +21,7 @@ export default function Comunicacao() {
           valor={Math.round(dados.sinal)}
           unidade="%"
           emAlerta={ehAlerta(["sinal_fraco"])}
+          indice={0}
         />
         <CardIndicador
           icone="timer"
@@ -28,6 +29,7 @@ export default function Comunicacao() {
           valor={Math.round(dados.latencia)}
           unidade="ms"
           emAlerta={false}
+          indice={1}
         />
         <CardIndicador
           icone="pulse"
@@ -35,6 +37,7 @@ export default function Comunicacao() {
           valor={Math.round(dados.enlace)}
           unidade="%"
           emAlerta={false}
+          indice={2}
         />
       </View>
       <GraficoLinha
