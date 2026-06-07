@@ -22,6 +22,7 @@ export default function Energia() {
           unidade="%"
           emAlerta={ehAlerta(["bateria_baixa"])}
           indice={0}
+          progresso={dados.bateria / 100}
         />
         <CardIndicador
           icone="sunny"
@@ -30,6 +31,7 @@ export default function Energia() {
           unidade="%"
           emAlerta={false}
           indice={1}
+          progresso={dados.geracaoSolar / 100}
         />
         <CardIndicador
           icone="flash"
@@ -38,6 +40,7 @@ export default function Energia() {
           unidade="%"
           emAlerta={false}
           indice={2}
+          progresso={dados.consumo / 100}
         />
       </View>
       <GraficoLinha

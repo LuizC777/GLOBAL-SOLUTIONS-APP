@@ -22,6 +22,7 @@ export default function Comunicacao() {
           unidade="%"
           emAlerta={ehAlerta(["sinal_fraco"])}
           indice={0}
+          progresso={dados.sinal / 100}
         />
         <CardIndicador
           icone="timer"
@@ -30,6 +31,7 @@ export default function Comunicacao() {
           unidade="ms"
           emAlerta={false}
           indice={1}
+          progresso={(dados.latencia - 200) / 1800}
         />
         <CardIndicador
           icone="pulse"
@@ -38,6 +40,7 @@ export default function Comunicacao() {
           unidade="%"
           emAlerta={false}
           indice={2}
+          progresso={dados.enlace / 100}
         />
       </View>
       <GraficoLinha
