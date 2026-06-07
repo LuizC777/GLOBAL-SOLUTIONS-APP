@@ -1,0 +1,54 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aurora MCC logo">
+  <defs>
+    <linearGradient id="aGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7FD8FF"/>
+      <stop offset="1" stop-color="#5AC8FF"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowSm" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- fundo -->
+  <rect x="0" y="0" width="400" height="400" rx="72" fill="#0B1021"/>
+  <rect x="3" y="3" width="394" height="394" rx="69" fill="none" stroke="#2A3350" stroke-width="2"/>
+
+  <!-- estrelas -->
+  <g fill="#9AAAC6">
+    <circle cx="70" cy="90" r="2" opacity="0.5"/>
+    <circle cx="330" cy="118" r="1.6" opacity="0.4"/>
+    <circle cx="300" cy="322" r="2" opacity="0.5"/>
+    <circle cx="88" cy="300" r="1.5" opacity="0.35"/>
+    <circle cx="205" cy="58" r="1.4" opacity="0.4"/>
+    <circle cx="352" cy="232" r="1.6" opacity="0.4"/>
+    <circle cx="56" cy="200" r="1.3" opacity="0.3"/>
+  </g>
+
+  <!-- órbita (faz as vezes da barra do A) -->
+  <g transform="rotate(-18 200 215)">
+    <ellipse cx="200" cy="215" rx="120" ry="46" fill="none" stroke="#5AC8FF" stroke-width="5" opacity="0.6"/>
+  </g>
+
+  <!-- letra A -->
+  <g fill="none" stroke="url(#aGrad)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M200 112 L142 292"/>
+    <path d="M200 112 L258 292"/>
+  </g>
+
+  <!-- satélite na órbita -->
+  <g transform="rotate(-18 200 215)">
+    <circle cx="277" cy="180" r="20" fill="none" stroke="#3AD98A" stroke-width="2" opacity="0.4"/>
+    <circle cx="277" cy="180" r="11" fill="#3AD98A" filter="url(#glowSm)"/>
+  </g>
+</svg>
