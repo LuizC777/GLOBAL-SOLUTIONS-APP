@@ -4,8 +4,6 @@
 
 ![Banner do projeto](./assets/screenshots/banner.png)
 
-> _LOGO DO GRUPO_
-
 ---
 
 ## 📖 Descrição
@@ -94,7 +92,7 @@ Formulário de configuração dos limiares de alerta, com inputs controlados, va
 
 ```bash
 # Clone o repositório
-git clone https://github.com/[seu-usuario]/[seu-repo].git
+git clone https://github.com/LuizC777/GLOBAL-SOLUTIONS1-APPDEV.git
 
 # Acesse a pasta do projeto
 cd [seu-repo]
@@ -113,7 +111,5 @@ Escaneie o QR Code com o **Expo Go** para rodar no dispositivo físico, ou press
 ## 🎬 Vídeo de Demonstração
 
 [Clique aqui para assistir à demonstração](https://youtube.com/...)
-
-> _LINK_
 
 ---
