@@ -24,32 +24,44 @@ O **Aurora MCC** é uma plataforma mobile de análise preditiva para monitoramen
 ## 📸 Telas do Aplicativo
 
 ### Home — Dashboard Principal
-![Home](./assets/screenshots/home.png)
+<p align="center">
+  <img src="./assets/screenshots/home.png" alt="Home" width="250" />
+</p>
 
 Visão geral da missão: card-herói com status, cronômetro de tempo de missão (T+) e indicadores resumidos de temperatura, bateria, sinal e radiação.
 
 ### Dashboard de Sensores (Telemetria)
-![Telemetria](./assets/screenshots/telemetria.png)
+<p align="center">
+  <img src="./assets/screenshots/telemetria.png" alt="Telemetria" width="250" />
+</p>
 
 Cards de temperatura, pressão e radiação com barras de nível, e gráfico de linha com as leituras dos sensores em tempo real simulado.
 
 ### Dashboard de Energia
-![Energia](./assets/screenshots/energia.png)
+<p align="center">
+  <img src="./assets/screenshots/energia.png" alt="Energia" width="250" />
+</p>
 
 Indicadores de carga da bateria, geração dos painéis solares e consumo dos sistemas, com gráfico do nível de bateria ao longo do tempo.
 
 ### Dashboard de Comunicação
-![Comunicação](./assets/screenshots/comunicacao.png)
+<p align="center">
+  <img src="./assets/screenshots/comunicacao.png" alt="Comunicação" width="250" />
+</p>
 
 Status do enlace de telemetria, latência e qualidade do sinal, com gráfico do sinal em tempo real.
 
 ### Alertas
-![Alertas](./assets/screenshots/alertas.png)
+<p align="center">
+  <img src="./assets/screenshots/alertas.png" alt="Alertas" width="250" />
+</p>
 
 Lista de alertas ativos gerados automaticamente por limiar crítico, com nível de severidade, mais o histórico de alertas persistido.
 
 ### Configurações / Formulário
-![Configurações](./assets/screenshots/configuracoes.png)
+<p align="center">
+  <img src="./assets/screenshots/configuracoes.png" alt="Configurações" width="250" />
+</p>
 
 Formulário de configuração dos limiares de alerta, com inputs controlados, validação e feedback visual de erro.
 
